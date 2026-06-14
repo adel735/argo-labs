@@ -4,3 +4,7 @@ resources:
 - rollout.yaml
 - service.yaml
 - preview-service.yaml
+images:
+- name: schoolofdevops/vote
+  newName: adelelmaghloub/vote
+  newTag: 06c28d6
